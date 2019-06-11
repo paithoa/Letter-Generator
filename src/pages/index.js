@@ -6,7 +6,9 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 class IndexPage extends Component {
+  
   render(){
+    
 
   return(
     <div style={{
