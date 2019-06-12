@@ -10,7 +10,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Button from '@material-ui/core/Button';
 import { Link } from "gatsby"
 
-  export default function IndividualPage() {
+  export default function OrganisationPage() {
     const positions = [
         {
           label: 'Principal Speech Pathologist',
@@ -138,7 +138,6 @@ import { Link } from "gatsby"
           </MenuItem>
         ))}
       </TextField>
-
       <Link to = {`/type`}>
       <Button style= {{marginTop:'25%',marginLeft:'25%'}} variant="contained" color="primary" className={classes.button} >
         Complete
